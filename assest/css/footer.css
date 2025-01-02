@@ -1,0 +1,55 @@
+/*   start footer   */
+.footer{
+    background-color: #EEEFFB;
+    padding: 30px 0;
+}
+.footer .row{
+    align-items: flex-start;
+}
+.left-side-footer{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    align-items:flex-start;
+}
+.email form{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #0D0E43;
+}
+.email input{
+border: 0;
+padding: 10px 20px;
+
+}
+.email button{
+    border: 0;
+    padding: 10px;
+    background-color: var(--mainColor);
+}
+.right-side-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+.right-side-footer nav {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+gap: 10px;
+}
+.footer-items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+.right-side-footer a{
+    color: #8A8FB9;
+}
+/*end footer*/
+
+

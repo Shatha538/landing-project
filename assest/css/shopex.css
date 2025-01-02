@@ -1,0 +1,54 @@
+.shopex{
+    text-align: center;
+    padding: 30px 0 ;
+}
+.shopex .title{
+    display: flex;
+    justify-content: center;
+}
+.shopex .row {
+   
+    justify-content: center;
+    
+}
+.shopex .items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 10px;
+    
+}
+.support{
+    height: 300px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(25% - 15px);
+    max-width: calc(25% - 15px);
+    box-shadow: 0 4px 8px rgba(150, 147, 147, 0.1);
+   
+  }
+  .support h3{
+    color: #151875;
+    font-size: 22px;
+  }
+  .support p{
+    color:#1A0B5B4D;
+    font-size: 16px;
+  }
+  .support img {
+    width: 65px;
+    height: 65px;
+    margin-top: 50px;
+    object-fit: cover; 
+   
+    
+  }

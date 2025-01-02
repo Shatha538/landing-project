@@ -1,0 +1,78 @@
+.discount-items{
+
+    padding: 30px 0;
+
+}
+
+.discount-items .title{
+    display: flex;
+    justify-content: center;
+}
+.discount-items .sub-items{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.sub-items .normal{
+    color: #151875;
+  
+  }
+   .wood{
+    color: #FB4997;
+    text-decoration: underline;
+  }
+ 
+.discount-items .discount-img{
+     display: flex;
+     flex-grow: 1;
+     max-width: 100%;
+     justify-content: space-between;
+    
+}
+ .discount-items .discount-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 0;
+    gap: 20px;
+    
+}
+.discount-items .subtitle{
+color:red;
+font-weight: 500;
+font-size: 21px;
+}
+.discount-items .title{
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+.discount-items .description{
+    color: #8A8FB9;
+}
+.discount-items .shop-btn{
+    padding: 15px 40px;
+    border: #EEEFFB;
+    border-radius: 5px;
+    color:aliceblue;
+    background-color: var(--mainColor);
+}
+.discount-items .list-one{
+    display: flex;
+    gap: 50px;
+    color: #8A8FB9;
+}
+.discount-items .list-two{
+    display: flex;
+    gap: 80px;
+    color: #8A8FB9;
+}
+
+.right-discount img{
+    width: 120%;
+}

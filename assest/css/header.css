@@ -1,0 +1,57 @@
+
+/* Start Header */
+.header{
+    padding: 30px 0;
+}
+.header nav {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.header nav a{
+
+    color: #0D0E43;
+}
+.search form{
+
+    display: flex;
+    border: 2px solid #0D0E43;
+}
+.search input{
+border: 0;
+padding: 10px 40px;
+
+}
+.search button{
+    border: 0;
+    padding: 10px;
+    background-color: var(--mainColor);
+
+}
+.header .bars {
+    display: none;
+}
+@media screen and (min-width: 0) and (max-width: 1200px){
+    .header nav {
+        display: none;
+    }
+    .search form {
+        display: none;
+    }
+    .header .bars {
+        display: block;
+    }
+    
+}
+/*   end Header   */
+
+
+/*start main*/
+
+
+
+
+
+/*end main*/
+
+

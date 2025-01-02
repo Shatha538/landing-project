@@ -1,0 +1,55 @@
+/*start section hero*/
+.hero{
+   
+    background-color: #EEEFFB;
+}
+.hero .hero-content{
+   display: flex;
+    flex-grow: 1;
+    max-width: 70%;
+  justify-content: space-between;
+}
+.hero .lamp{
+    width: 200px;
+    position: relative;
+    bottom: 75px;
+    right: 140px;
+}
+
+.hero .hero-content .text-hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 0;
+    gap: 20px;
+}
+.hero .subtitle{
+color:red;
+font-weight: 500;
+font-size: 15px;
+}
+.hero .title{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+.hero .description{
+    color: #8A8FB9;
+}
+.hero .shop-btn{
+    padding: 15px 40px;
+    border: #EEEFFB;
+    border-radius: 5px;
+    color:aliceblue;
+    background-color: var(--mainColor);
+}
+
+
+.hero-image img{
+    width: 100%;
+}
+
+
+
+

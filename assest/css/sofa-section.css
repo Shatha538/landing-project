@@ -1,0 +1,71 @@
+.sofa-section{
+    padding: 30px 0;
+    background-color: #F1F0FF;
+}
+.sofa-section-left{
+    text-align: center;
+}
+.sofa-section-left img {
+    width: 100%;
+}
+.sofa-section-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 0;
+}
+.sofa-section-right h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2a1a5e;
+  }
+.sofa-section-right ul{
+    list-style: none;
+}
+.sofa-section-right li{
+    padding: 10px 0;
+    font-size: 14px;
+    color: #ACABC3;
+}
+.sofa-section-right .dot{ 
+
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.sofa-section-right .red{
+background-color: #F52B70;
+
+}
+.sofa-section-right .green{
+    background-color:#2BF5CC;
+    
+}
+.sofa-section-right .blue{
+        background-color:#2B2BF5;
+}
+
+.sofa-section-right .price{
+   display: inline;
+  
+    
+}
+.sofa-section-right button{
+    
+    background-color: #ff4d88;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.price span{
+    font-size: 10px;
+    color: #888;
+    position: relative;
+    
+  }

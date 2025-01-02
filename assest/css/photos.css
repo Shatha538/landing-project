@@ -1,0 +1,11 @@
+.photos{
+    padding: 30px 0;
+    
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.photos .row{
+    justify-content: center;
+   
+}
